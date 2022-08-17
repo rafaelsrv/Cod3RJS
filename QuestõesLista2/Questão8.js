@@ -1,0 +1,1 @@
+//Receber 4 números, para saber qual o mínimo e máximo.
