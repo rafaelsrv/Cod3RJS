@@ -7,3 +7,5 @@ function elementosExtremos(vetor){
     return Elementos=[PrimeiroElemento,UltimoElemento]
 }
 console.log(elementosExtremos([2,3,4]))
+
+//Deu Certo
