@@ -8,4 +8,4 @@ function elementosExtremos(vetor){
 }
 console.log(elementosExtremos([2,3,4]))
 
-//Deu Certo
+//Deu Certo!
