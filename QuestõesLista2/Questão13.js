@@ -15,3 +15,4 @@ function vetor (vetorr){
     
 }
 vetor([10,2,"5","6",5,"Agora Foi?"])
+window.alert(`${resultante}`)
