@@ -1,9 +1,12 @@
 function ArraySum(array){
     let resultadoSoma = 0
 
-    for(i=0; i<array.length; i++){
-        resultadoSoma += array[i]
-    }
+    array.forEach(element => {
+        resultadoSoma +=element
+        
+    });
+    
+    
     return resultadoSoma
 
 }
