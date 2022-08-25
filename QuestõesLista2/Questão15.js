@@ -11,3 +11,4 @@ for(chave in obj){
 }
 console.log(i)
 console.log(chave)
+console.log(Object.keys(obj))
