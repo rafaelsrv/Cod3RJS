@@ -1,4 +1,8 @@
 function MenorNumero(vetor){
-    return console.log(Math.max(...vetor))
+   let nova = vetor.reduce((acc, current)=> acc < current ? acc : current)
+   
+   return nova
+    
+    
 }
-MenorNumero([2,4,5,1,0])
+console.log(MenorNumero([2,-1,5,1,14]))
