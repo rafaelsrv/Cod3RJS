@@ -1,13 +1,6 @@
-function ArraySum(array){
-    let resultadoSoma = 0
+function soma(vetor){
 
-    array.forEach(element => {
-        resultadoSoma +=element
-        
-    });
-    
-    
-    return resultadoSoma
-
+    const somar = vetor.reduce((acc, current)=> acc + current,0)
+    return somar
 }
-console.log(ArraySum([5,10,15,20]))
+console.log(soma([10,20,40]))
