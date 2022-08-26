@@ -1,17 +1,17 @@
 function retirarString(string){
     
     
-    const vogais = "a"
+    
     
     let novaString = string.split('')
 
     for(i=0; i<novaString.length;i++){
-
-        if(novaString[i]==vogais){
+        const vogais = ["a","e","i","o","u"]
+        if (vogais.includes(novaString[i])){
             novaString.splice(i,1)
         }
     }return novaString.join('')
    
  
     
-}console.log(retirarString("aleluia"))
+}console.log(retirarString("na cama eute exculaxo"))
