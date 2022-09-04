@@ -11,5 +11,5 @@ if(anonimo){
 
         process.stdout.write(`Fala ${nome}!!`)
         process.exit()
-    })visualViewport
-}//deu errov
+    })
+}
