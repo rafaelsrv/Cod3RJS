@@ -26,11 +26,27 @@ const getTurma = letra =>{
     
 
 }
+
+let obterAlunos = async() => {
+    const ta = await getTurma('A')
+    const tb = await getTurma('B')
+    const tc = await getTurma('C')
+    return [].concat(ta, tb, tc)
+}
+
+obterAlunos()
+    .then(alunos => alunos.map(a => a.nome))
+    .then(nomes => console.log(nomes))
 // let nomes = []
 // getTurma('A', alunos => {
 //     nomes = nomes.concat(alunos.map(a => `A: ${a.nome}`))
 //     getTurma('B', alunos =>{
 //         nomes = nomes.concat(alunos.map(a => `B: ${a.nome}`))
+
+
+
+
+
 //         getTurma('C', alunos =>{
 //             nomes = nomes.concat(alunos.map(a => `C: ${a.nome}`))
 //             console.log(nomes)
@@ -39,9 +55,9 @@ const getTurma = letra =>{
     
 // })
 
-Promise.all([getTurma('A'),getTurma('B'), getTurma('C')])
-    .then(turmas => [].concat(...turmas))
-    .then(alunos => alunos.map(aluno => aluno.nome))
-    .then(nomes => console.log(nomes))
+// Promise.all([getTurma('A'),getTurma('B'), getTurma('C')])
+//     .then(turmas => [].concat(...turmas))
+//     .then(alunos => alunos.map(aluno => aluno.nome))
+//     .then(nomes => console.log(nomes))
 
     
