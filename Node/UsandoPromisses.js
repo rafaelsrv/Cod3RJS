@@ -43,7 +43,7 @@ obterAlunos()
 //     getTurma('B', alunos =>{
 //         nomes = nomes.concat(alunos.map(a => `B: ${a.nome}`))
 
-
+//preciso aprender Vue
 
 
 
