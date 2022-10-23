@@ -3,7 +3,7 @@ const carrinho =[
     '{"nome": "Borracha", "preco": 3.45}',
     '{"nome": "Caderno", "preco": 13.90}',
     '{"nome": "Kit de Lapis", "preco": 43.45}',
-    '{"nome": "Cante", "preco": 5.40}',
+    '{"nome": "Cante", "preco": 5.440}',
 ]
 
 
