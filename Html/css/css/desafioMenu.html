@@ -59,7 +59,7 @@
             text-decoration: none;
             color: #eee;
             font-size: 1.3em;
-            padding: 15px;
+            
         }
         .menu a{
             padding:15px;
@@ -69,7 +69,36 @@
             height: 80px;
             padding: 25px;
         }
-        
+        .menu a:hover,
+        .menu a.selected{
+            background-color:#4faddb;
+            color: #eee;
+        }
+        .botao{
+            border-radius: 30px;
+            padding: 10px 25px;
+            margin: 10px;
+        }
+        .destaque{
+            background: #f50a31;
+            color:#fff;
+        }
+
+        @media(min-width: 679px){
+            .menu-toggle{
+                display:none;
+            }
+        }
+        @media(max-width: 680px){
+            .menu{
+                display:none;
+            }
+        }
+        @media(max-width:910px){
+            .autenticacao{
+                display:none;
+            }
+        }
 
         
 
@@ -89,7 +118,7 @@
         <nav class="menu">
             <ul class="list">
                 <li class="item_list">
-                    <a href="#inicio">Início</a>
+                    <a href="#inicio" >Início</a>
                 </li>
                 <li class="item_list">
                     <a href="#cursos">Cursos</a>
@@ -110,6 +139,15 @@
 
     <script>
         // ...
+        window.onhashchange = function(e){
+            const oldURL = e.oldURL.split('#')[1]
+            const newURL = e.newURL.split('#')[1]
+            
+            const oldMenu = document.querySelector(`.menu [href='#${oldURL}']`)
+            const newMenu = document.querySelector(`.menu a[href='#${newURL}']`)
+            oldMenu && oldMenu.classList.remove('selected')
+            newMenu && newMenu.classList.add('selected')
+        }
     </script>
 </body>
 
