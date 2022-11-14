@@ -10,13 +10,33 @@
         /* ... */
         header{
             border: solid 10px red;
+            font-size: 25px;
 
             
         }
         .logo{
             border: solid 10px blue;
             background-color: gray;
+            display: inline-block;          
+        
         }
+        .menu{
+            display: inline-block;
+            
+        }
+        .list{
+            display: flex;
+            list-style: none;
+        }
+        .item_list{
+            padding:4px;
+            color: white;
+            font-size: 22px;
+            
+        }.item_list a:hover{
+            background-color: blue;
+        }
+
     </style>
 </head>
 
@@ -31,17 +51,17 @@
             <i class="fa fa-lg fa-bars"></i>
         </button>
         <nav class="menu">
-            <ul>
-                <li>
+            <ul class="list">
+                <li class="item_list">
                     <a href="#inicio">Início</a>
                 </li>
-                <li>
+                <li class="item_list">
                     <a href="#cursos">Cursos</a>
                 </li>
-                <li>
+                <li class="item_list">
                     <a href="#sobre">Sobre</a>
                 </li>
-                <li>
+                <li class="item_list">
                     <a href="#contato">Contato</a>
                 </li>
             </ul>
