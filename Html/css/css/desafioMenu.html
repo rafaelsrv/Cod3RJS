@@ -8,34 +8,70 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
         /* ... */
-        header{
-            border: solid 10px red;
-            font-size: 25px;
+        *{
+            box-sizing: border-box;
+        }
 
-            
+        body{
+            margin:0;
+            font-family: 'Oswald', sans-serif;
+            background-color: lightgray;
+        }
+        .cabecalho{
+            background-color: #333;
+            border-bottom: solid 5px #4afddb;
+            height: 80px;
+            box-sizing: content-box;
         }
         .logo{
-            border: solid 10px blue;
-            background-color: gray;
-            display: inline-block;          
-        
+            display: inline-block;
+            height: 80px;
+            padding: 15px;
+        }
+        .logo img{
+            height: 100%;
+        }
+        .menu-toggle{
+            float: right;
+            color: #eee;
+            background-color:#555;
+            border: solid 1px #777;
+            border-radius: 5px;
+            height: 40px;
+            padding: 10px 20px;
+            margin:20px 15px;
         }
         .menu{
             display: inline-block;
-            
+            vertical-align: top;
+            height: 80px;
+            padding: 25px;
         }
-        .list{
-            display: flex;
-            list-style: none;
+
+        .menu ul{
+            margin:0;
+            padding:0;
         }
-        .item_list{
-            padding:5px;
-            color: white;
-            font-size: 22px;
-            
-        }.item_list a:hover{
-            background-color: blue;
+        .menu li{
+            display: inline-block;
         }
+        .cabecalho a{
+            text-decoration: none;
+            color: #eee;
+            font-size: 1.3em;
+            padding: 15px;
+        }
+        .menu a{
+            padding:15px;
+        }
+        .autenticacao{
+            float:right;
+            height: 80px;
+            padding: 25px;
+        }
+        
+
+        
 
     </style>
 </head>
