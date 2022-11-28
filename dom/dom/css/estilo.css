@@ -16,7 +16,10 @@ body {
     background-color: #0D262D;
     color: #ffff;
     height: 100%;
-}
+    width: auto;
+
+    
+    }
 
 .conteudo {
     display: flex;
