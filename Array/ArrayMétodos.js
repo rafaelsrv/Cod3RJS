@@ -23,5 +23,5 @@ console.log(pilotos)
 const algunsPilotos1 = pilotos.slice(2)   // Recebe o vetor a partir da posição setada.
 console.log(algunsPilotos1)
 
-const algunsPilotos2 = pilotos.slice(1,4) // Segundo parâmetro é o limite do vetor.
+const algunsPilotos2 = pilotos.slice(1,4) // Segundo parâmetdsaro é o limite do vetor.
 console.log(algunsPilotos2)
