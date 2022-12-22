@@ -1,5 +1,5 @@
 function dias(idade){
-    return console.log(idade*365)
+    return console.log(idade*365*1)
 
 }
-dias(10)
+dias(100)
