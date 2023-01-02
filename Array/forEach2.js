@@ -9,7 +9,7 @@ function forEach2(aprovados){
 
 
 
-const aprovados =['Agatha', 'Aldo', 'Daniel', 'Raquel']
+const aprovados =['Agatha', 'Aldo', 'Daniel', 'Raquel', 'Cacimba']
 
 forEach2(aprovados,(function(nome, indice){
     console.log(`${indice +1}) ${nome}`)
