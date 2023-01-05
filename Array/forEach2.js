@@ -14,4 +14,4 @@ const aprovados =['Agatha', 'Aldo', 'Daniel', 'Raquel', 'Cacimba', 'Supa']
 forEach2(aprovados,(function(nome, indice){
     console.log(`${indice +1}) ${nome}`)
 }))
-console.log("hehdadgfsfdsefhg")
+console.log("hehdadgfsgfdfdsefhg")
