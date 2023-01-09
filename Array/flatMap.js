@@ -17,7 +17,7 @@ const escola= [{
     },
     {
         nome: 'Roberta',
-        nota: 9.3247
+        nota: 9.32474
     }]}
 
     
