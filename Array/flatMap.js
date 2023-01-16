@@ -30,4 +30,4 @@ const notas1 = escola.map(getNotasDaTurma)
 console.log(notas1)
 console.log(notas1)
 console.log(notas1)
-
+console.log(notas1)
